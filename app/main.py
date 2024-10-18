@@ -1,3 +1,9 @@
+"""
+This is a FastAPI-based calculator application that provides
+basic arithmetic operations such as addition, subtraction,
+multiplication, and division.
+"""
+
 from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
