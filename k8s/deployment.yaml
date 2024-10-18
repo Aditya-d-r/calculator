@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: fastapi-app
-        image: your_dockerhub_username/fastapi-app:latest
+        image: adityadrex/calculator:latest
         ports:
         - containerPort: 80
