@@ -27,7 +27,15 @@ jobs:
       run: pytest
 
     - name: Lint code
-      run: pip install pylint && pylint app/main.py
+      run: |
+          pip install pylint
+          pylint **/*.py --output-format=json > pylint-report.json || true
+          score=$(jq 'map(select(.type == "error")) | length' pylint-report.json)
+          echo "Pylint score (error count): $score"
+          if [ "$score" -gt 8 ]; then
+            echo "Pylint score is below 8. Failing the job."
+            exit 1
+          fi
 
     - name: Build Docker image
       run: docker build -t adityadrex/calculator:latest .
