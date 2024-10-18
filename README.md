@@ -53,6 +53,8 @@ the file taht is being used is https://github.com/Aditya-d-r/calculator/blob/mai
 the k8s service detalis are mentioned in k8s folder
 
 the deployment was succesful
-![WhatsApp Image 2024-10-19 at 2 55 47 AM](https://github.com/user-attachments/assets/c86eb5ac-247a-4606-a868-93778e13c69e)
-![WhatsApp Image 2024-10-19 at 2 55 46 AM](https://github.com/user-attachments/assets/8cfdaf68-2406-453e-a052-771af9ec29fe)
+![WhatsApp Image 2024-10-19 at 3 04 10 AM](https://github.com/user-attachments/assets/b5f42dd2-3acc-4f54-b17c-92facec1c2f3)
+![WhatsApp Image 2024-10-19 at 3 03 52 AM](https://github.com/user-attachments/assets/399d9ebb-56f0-4eaf-ab50-bb846f0492ab)
+
+
 
