@@ -51,3 +51,8 @@ the deployemnt is done on local argocd instance on minikube hence you don't see 
 the file taht is being used is https://github.com/Aditya-d-r/calculator/blob/main/k8s/argocd-app.yaml
 
 the k8s service detalis are mentioned in k8s folder
+
+the deployment was succesful
+![WhatsApp Image 2024-10-19 at 2 55 47 AM](https://github.com/user-attachments/assets/c86eb5ac-247a-4606-a868-93778e13c69e)
+![WhatsApp Image 2024-10-19 at 2 55 46 AM](https://github.com/user-attachments/assets/8cfdaf68-2406-453e-a052-771af9ec29fe)
+
