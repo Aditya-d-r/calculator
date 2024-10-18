@@ -27,7 +27,7 @@ jobs:
       run: pytest
 
     - name: Lint code
-      run: pip install pylint && pylint main.py
+      run: pip install pylint && pylint app/main.py
 
     - name: Build Docker image
       run: docker build -t Aditya-d-r/calculator:latest .
