@@ -1,8 +1,8 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: calculator
-  namespace: argocd1
+  name: fastapi-app
+  namespace: argocd
 spec:
   destination:
     server: 'https://kubernetes.default.svc'
